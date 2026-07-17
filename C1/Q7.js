@@ -26,5 +26,10 @@ const filterEmp = Emp.filter((emp)=>{
         return emp
     }
 })
-console.log(filterEmp);
+console.log(filterEmp); 
+
+//output: 
+// [ { name: 'Harry', id: 785, sal: 72345 }, 
+// { name: 'Gary', id: 85, sal: 92345 }, 
+// { name: 'Ram', id: 95, sal: 62345 } ]
 
