@@ -1,3 +1,4 @@
+//Finding maximum from the array
 arr = [89, 12, 56, 34, 75];
 
 function findMax(arr) {
