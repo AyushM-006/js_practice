@@ -15,9 +15,7 @@ const sum = arr.reduce((sum , arr )=>{
     return sum += arr
 });
 
-console.log(squareNum);
-console.log(odd);
+console.log(squareNum); //output: [16, 4, 36, 100, 49, 25]
+console.log(odd); //output: [1, 3, 5, 7]
 
-console.log(sum);
-
-
+console.log(sum); //output: 24
