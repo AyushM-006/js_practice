@@ -4,4 +4,4 @@ const person = {
     gender : "Male"
 }
 
-console.log(person.name);
+console.log(person.name); // Output: John
