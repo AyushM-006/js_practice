@@ -1,3 +1,4 @@
+//array destructuring
 const products = ["Potato" , "Onion", "Tomato","Brinjal"]
 console.log(products[3]);
 
@@ -5,6 +6,7 @@ const[Potato,Onion,Tomato,Brinjal] = products
 
 console.log(Potato);
 
+//object destructuring
 const product = {
   name: "Onion",
   price: 30,
