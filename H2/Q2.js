@@ -10,11 +10,10 @@ class Product {
     }
     
     displayDetails(){
-        console.log(this.name+ " " + this.productId + " " + this.price);
-        
+        console.log(this.name+ " " + this.productId + " " + this.price);  
     }
-
 
 }
 const p = new Product("Maggie",4412,15)
+console.log(p)
 p.displayDetails() 
