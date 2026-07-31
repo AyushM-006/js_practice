@@ -15,12 +15,11 @@ class Student extends Person {
   getDetails(): void {
     console.log(this.name + " " + this.id);
   }
-  
   getRole(): void {
     console.log(this.name + " is a Student.");
   }
-
 }  
+
 class Teacher extends Person {
   name: String;
   id: Number;
@@ -33,9 +32,7 @@ class Teacher extends Person {
   getDetails(): void {
     console.log(this.name + " " + this.id);
   }
-  
   getRole(): void {
     console.log(this.name + " is a Teacher.");
   }
-
 }
