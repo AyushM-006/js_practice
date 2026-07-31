@@ -2,13 +2,13 @@ class Student {
     name: string;
     id: number;
     grade: number;
-
     constructor(name: string, id: number, grade: number) {
         this.name = name;
         this.id = id;
         this.grade = grade;
     }
-//by genAI
+    
+    //by genAI
     getStudentDetails<T extends keyof Student>(info: T): Student[T] {
         return this[info];
     }
