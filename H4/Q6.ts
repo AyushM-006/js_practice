@@ -8,18 +8,19 @@ class Student {
         this.id = id;
         this.grade = grade;
     }
-
+//by genAI
     getStudentDetails<T extends keyof Student>(info: T): Student[T] {
         return this[info];
     }
 }
 
+//student object
 const stu = new Student("AYush",55001,74)
 console.log(stu.getStudentDetails("name"));
 
 
 
-
+//simple use of generic as explained
 function getStudentDetail<T>(info: T): T {
         return info;
 }
