@@ -7,7 +7,6 @@ const student = {
         console.log("HI myself "+this.name+" and I am "+this.age+" year old.");
         
     }
-
 }
 
 console.log(student);
