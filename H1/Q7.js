@@ -16,7 +16,6 @@ const student = [
         marks: 78
     }]
 
-
 const above80 = student.filter((student)=>{
     return student.marks > 80    
     
