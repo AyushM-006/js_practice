@@ -8,6 +8,7 @@ function payment(status) {
   });
 }
 
+
 //then catch
 payment()
   .then((result) => {
