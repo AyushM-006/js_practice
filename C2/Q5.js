@@ -4,6 +4,7 @@ console.log(arr);
 //spread operator
 console.log(...arr);
 
+
 //default parameter
 function add(a,b = 55){
     console.log(a+b);  
