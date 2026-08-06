@@ -1,5 +1,6 @@
 const arr = [45,33,66,14,88]
 console.log(arr);
+
 //spread operator
 console.log(...arr);
 
