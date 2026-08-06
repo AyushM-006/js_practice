@@ -7,7 +7,6 @@ console.log(electronics[0]);
 console.log(a1);
 
 
-
 //object destructuring
 const grocery = {
     name: "Potato",
