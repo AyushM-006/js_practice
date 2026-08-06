@@ -16,4 +16,5 @@ add(15)
 function findMax(arr){
     return Math.max(...arr)
 }
+
 console.log(findMax(arr));
