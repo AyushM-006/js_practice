@@ -7,6 +7,7 @@ class Emp {
         this.sal = sal
         this.id = id
     }
+    
 }
 
 const emp = new Emp("Ayush", 45,45000)
