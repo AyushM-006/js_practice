@@ -18,7 +18,6 @@ function AgeValidator(age){
     }
 } 
 
-
 function errorPropogator(){
     AgeValidator(5)
 }
