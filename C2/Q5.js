@@ -9,7 +9,6 @@ console.log(...arr);
 function add(a,b = 55){
     console.log(a+b);  
 }
-
 add(12,22)
 add(15)
 
