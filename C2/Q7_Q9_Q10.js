@@ -1,7 +1,6 @@
 //user defined error
 //error propogation and error handling
 //use of throw keyword
-
 class InvalidAge extends Error{
 
     constructor(msg){
