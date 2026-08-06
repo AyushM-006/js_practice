@@ -2,7 +2,6 @@ class Emp {
     name
     id
     sal
-
     constructor(name,id,sal){
         this.name = name
         this.sal = sal
