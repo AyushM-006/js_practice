@@ -4,7 +4,6 @@ const arr = [1, 2, 3, 4, 5];
 const [a, b, c] = arr;
 console.log(a, b, c);
 
-
 //auto generated generic object
 /*const obj = { name: "John", age: 30, city: "New York" };
 const { name, age, city } = obj;
