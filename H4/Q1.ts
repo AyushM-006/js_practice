@@ -19,4 +19,5 @@ class Student {
 }
 
 const s1 = new Student("Ayush",4512,"A","Mumbai")
+
 s1.displayInfo()
