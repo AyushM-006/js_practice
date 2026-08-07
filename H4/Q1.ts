@@ -10,7 +10,6 @@ class Student {
         this.grade = grade
         this.address = address
     }
-
     displayInfo():void{
         console.log(this.name );
         console.log(this.studentId );
