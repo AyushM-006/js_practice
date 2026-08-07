@@ -2,7 +2,7 @@
 const products = ["Potato" , "Onion", "Tomato","Brinjal"]
 console.log(products[3]);
 
-//can access
+//can access using this values
 const[Potato,Onion,Tomato,Brinjal] = products
 
 console.log(Potato);
