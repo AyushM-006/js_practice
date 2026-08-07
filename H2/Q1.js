@@ -12,7 +12,6 @@ const product = {
   name: "Onion",
   price: 30,
 };
-
 console.log(product.name);
 const{name, price} = product 
 
