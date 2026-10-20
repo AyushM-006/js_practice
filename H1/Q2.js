@@ -3,7 +3,6 @@ const calculateGrade = (score) => {
         return 'A'
     }else if(score>70 && score <90 ){
         return 'B'
-
     }else{
         return 'C'
     }

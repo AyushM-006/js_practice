@@ -8,6 +8,7 @@ function payment(status) {
   });
 }
 
+
 //then catch
 payment()
   .then((result) => {
@@ -16,6 +17,7 @@ payment()
   .catch((err) => {
     console.log(err);
   });
+
 
   //async await
 async function test() {

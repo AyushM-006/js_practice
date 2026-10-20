@@ -5,7 +5,6 @@ const grades = marks.map((marks) => {
         return 'A'
     } else if (marks > 50 && marks < 80) {
         return 'B'
-
     } else {
         return 'C'
     }

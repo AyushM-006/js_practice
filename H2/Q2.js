@@ -8,11 +8,9 @@ class Product {
         this.productId = productId
         this.price = price
     }
-    
     displayDetails(){
         console.log(this.name+ " " + this.productId + " " + this.price);  
     }
-
 }
 const p = new Product("Maggie",4412,15)
 console.log(p)

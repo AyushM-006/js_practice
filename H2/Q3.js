@@ -8,6 +8,7 @@ function fetchDetails(response) {
     });
 }
 
+//then catch
 fetchDetails(1).then((result) => {
     console.log(result);
     

@@ -10,7 +10,6 @@ class Student {
         this.grade = grade
         this.address = address
     }
-
     displayInfo():void{
         console.log(this.name );
         console.log(this.studentId );
@@ -20,4 +19,5 @@ class Student {
 }
 
 const s1 = new Student("Ayush",4512,"A","Mumbai")
+
 s1.displayInfo()

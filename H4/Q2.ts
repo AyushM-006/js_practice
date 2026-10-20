@@ -14,7 +14,7 @@ class School {
   addStudent(s:Student){
     this.studentList.push(s)
 
-    School.totalStudents++
+    School.totalStudents++ //increase totalstudent count
 
   }
 }

@@ -1,7 +1,6 @@
 //user defined error
 //error propogation and error handling
 //use of throw keyword
-
 class InvalidAge extends Error{
 
     constructor(msg){
@@ -10,6 +9,7 @@ class InvalidAge extends Error{
     }
 }
 
+
 function AgeValidator(age){
     if(age < 18) {
         throw new InvalidAge("Age less than 18")
@@ -17,7 +17,6 @@ function AgeValidator(age){
         console.log("Valid Age...");
     }
 } 
-
 
 function errorPropogator(){
     AgeValidator(5)
