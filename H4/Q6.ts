@@ -15,7 +15,7 @@ class Student {
 }
 
 //student object
-const stu = new Student("AYush",55001,74)
+const stu = new Student("Ayush",55001,74)
 console.log(stu.getStudentDetails("name"));
 
 
@@ -25,6 +25,6 @@ function getStudentDetail<T>(info: T): T {
         return info;
 }
 
-console.log(getStudentDetail<String>("MEra naam student"));
+console.log(getStudentDetail<String>("Mera naam student"));
 console.log(getStudentDetail<Number>(10));
 
