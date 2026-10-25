@@ -15,10 +15,8 @@ class Student {
 }
 
 //student object
-const stu = new Student("Ayush",55001,74)
-console.log(stu.getStudentDetails("name"));
-
-
+const stud = new Student("Ayush",55001,74)
+console.log(stud.getStudentDetails("name"));
 
 //simple use of generic as explained
 function getStudentDetail<T>(info: T): T {
